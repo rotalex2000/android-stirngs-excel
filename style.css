@@ -1,0 +1,13 @@
+body {
+    padding: 10px;
+}
+
+#rawInput {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#exportButton {
+    margin-bottom: 10px;
+}

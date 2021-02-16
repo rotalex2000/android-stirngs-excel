@@ -1,0 +1,224 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">VideoCV default notification channel id</string>
+    <string name="channel_description" translatable="false">All VideoCV notifications</string>
+
+
+    <string name="app_name">VideoCVEmployer</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Popups -->
+    <string name="popup_action_ok">Ok</string>
+    <string name="popup_action_cancel">Cancel</string>
+    <string name="info">Info</string>
+    <string name="error">Error</string>
+    <string name="popup_action_turn_on">Turn on</string>
+    <string name="popup_action_turn_off">Turn off</string>
+
+    <!-- General-->
+    <string name="network_error_message">Something went wrong. Please try again.</string>
+    <string name="btn_action_done">Done</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">WELCOME</string>
+    <string name="welcome_description">Easily find employees for\nyour listed jobs.</string>
+    <string name="welcome_sign_in">Sign in</string>
+
+    <!-- Terms -->
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_privacy">Terms &amp; Conditions and Privacy Policy</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_title">Sign in</string>
+    <string name="sign_in_email">Email</string>
+    <string name="sign_in_password">Password</string>
+    <string name="sign_in_forgot_password">Forgot password?</string>
+    <string name="sign_in_btn">Sign in</string>
+    <string name="empty_email_error">Introduce your email</string>
+    <string name="email_format_error">Introduce a valid email</string>
+    <string name="empty_password_error">Introduce your password</string>
+    <string name="password_length_error">The password should have at least 6 characters</string>
+
+    <!-- Forgot password -->
+    <string name="forgot_pass_title">Forgot password</string>
+    <string name="forgot_pass_description">Enter your email below and we will send you instructions to reset your password.</string>
+    <string name="forgot_pass_your_email">Your email</string>
+    <string name="forgot_pass_send">Send</string>
+    <string name="forgot_success">Please verify your email in order to retrieve you password.</string>
+
+    <!--  Profile  -->
+    <string name="business_profile">Business profile</string>
+    <string name="company_name">Company name</string>
+    <string name="add_videos">Add videos</string>
+    <string name="add_videos_description">Upload or record up to 5 videos in whitch you describe your business.</string>
+    <string name="add_video_prompt">Add a video description of your company</string>
+
+    <string name="change_password">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="deactivate_account">Deactivate account</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout_are_you_sure">Are you sure that you want to logout from your account?</string>
+    <string name="deactivate_account_are_you_sure">Are you sure that you want to deactivate your account?</string>
+
+    <string name="select_profile_image">Select profile image</string>
+    <string name="profile_image_rationale_title">We need this permission to take your profile picture</string>
+    <string name="profile_image_rationale_description">We require access to allow you to take a profile picture in order complete your profile</string>
+
+    <string name="complete_name">Complete your name in your profile</string>
+    <string name="complete_image">Upload your profile image</string>
+    <string name="complete_video">Upload your videos in your in your profile</string>
+    <string name="remove_video_title">Remove video</string>
+    <string name="remove_video_message">Are you sure that you want to remove this video?</string>
+    <string name="remove_video_positive">Remove video</string>
+
+    <!-- Popup window items-->
+    <string name="popup_item_all">All</string>
+    <string name="popup_item_active">Active</string>
+    <string name="popup_item_inactive">Inactive</string>
+    <string name="popup_item_edit">Edit job</string>
+    <string name="popup_item_activate">Activate job</string>
+    <string name="popup_item_deactivate">Deactivate job</string>
+    <string name="popup_item_delete">Delete job</string>
+
+    <!-- Jobs -->
+    <string name="jobs_title">Jobs</string>
+    <string name="jobs_empty_text_title">Add jobs!</string>
+    <string name="jobs_empty_text_description">Add jobs from the button below so that candidates can apply on.</string>
+    <string name="jobs_empty_text_after_filter">You have no %s jobs</string>
+    <string name="jobs_empty_action_add_job">Add job</string>
+
+    <!-- Job Details -->
+    <string name="job_details_toolbar_title">Job details</string>
+    <string name="job_details_label_benefits">Benefits</string>
+    <string name="job_details_label_description">Job description</string>
+    <string name="job_details_label_cities">Cities</string>
+    <string name="job_details_label_location">Location</string>
+    <string name="job_details_candidates_count">%s Candidates</string>
+    <string name="job_details_salary_currency">%s Ft/HÃ³</string>
+    <string name="job_details_delete_popup_description">Are you sure that you want to delete this job?</string>
+    <string name="job_details_deleted_popup_description">Job deleted with success</string>
+
+    <!-- Add Edit job -->
+    <string name="add_job_toolbar_title">Add job</string>
+    <string name="add_job_action">Publish</string>
+    <string name="edit_job_toolbar_title">Edit job</string>
+    <string name="edit_job_action">Save</string>
+    <string name="add_job_label_details">Job details</string>
+    <string name="add_job_label_benefits">Benefits</string>
+    <string name="add_job_label_location">Location</string>
+    <string name="add_job_hint_title">Job title</string>
+    <string name="add_job_hint_salary">Monthly Salary</string>
+    <string name="add_job_hint_description">Job description</string>
+    <string name="add_job_hint_benefits">Add benefits</string>
+    <string name="add_job_hint_city">Choose city</string>
+    <string name="add_job_hint_address">Address</string>
+    <string name="add_job_currency">Ft/HÃ³</string>
+    <string name="add_job_empty_field_error">Empty field</string>
+    <string name="add_job_publish_popup_title">Publish job</string>
+    <string name="add_job_publish_popup_description">You need to complete your profile first in order to publish this job.</string>
+    <string name="add_job_publish_popup_action_positive">Complete profile</string>
+
+    <!-- Choose cities -->
+    <string name="choose_cities_toolbar_title">Choose city</string>
+    <string name="choose_cities_select_all_item">Select all</string>
+
+    <!-- Choose benefits -->
+    <string name="choose_benefits_toolbar_title">Benefits</string>
+
+    <!--  Profile  -->
+    <string name="save_button">Save</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="repeat_new_password">Repeat new password</string>
+    <string name="record_video">Record video</string>
+    <string name="upload_from_gallery">Upload from gallery</string>
+
+    <!-- Candidates -->
+    <string name="candidates_job_toolbar_title">%s Candidates</string>
+    <string name="candidates_item_action_profile">See Profile</string>
+    <string name="candidates_item_action_reject">Reject</string>
+
+    <!-- Set location -->
+    <string name="set_location_toolbar_title">Set location</string>
+
+    <!-- Feed -->
+    <string name="feed_candidates">Candidates</string>
+    <string name="feed_thats_it">That\'s it!</string>
+    <string name="feed_these_were_all_candidates">These were all candidates.</string>
+    <string name="introduce_yourself">Introduce yourself in a few sentences!</string>
+    <string name="greatest_strength">What\â€™s your greatest strength and why?</string>
+    <string name="where_do_you_see">Where do you see yourself in a year and why?</string>
+    <string name="how_would_you_deal">How would you deal with an angry customer?</string>
+
+    <!-- Change password -->
+    <string name="empty_current_password_error">Introduce your current password</string>
+    <string name="empty_new_password_error">Introduce your new password</string>
+    <string name="empty_repeat_new_password_error">Repeat your new password</string>
+    <string name="not_identical_repeat_new_password_error">Your passwords don\'t match</string>
+
+    <!-- Record video -->
+    <string name="replace_video">Replace video</string>
+    <string name="press_hold">Press and hold the button to record a video.</string>
+    <string name="min_record_time_title">Too short</string>
+    <string name="min_record_time_description">Your video must have at least five seconds!</string>
+    <string name="min_record_time_ok">OK</string>
+    <string name="camera_blocked_title">Camera blocked</string>
+    <string name="camera_blocked_description">The camera is blocked. Try to record a new video.\n\nIn case you have a black screen restart your device.</string>
+    <string name="camera_blocked_positive">Ok</string>
+
+    <!-- Video upload -->
+    <string name="video_upload">Video upload</string>
+    <string name="upload_in_progress">Upload video in progress</string>
+    <string name="popup_succeeded_upload_message">We successfully uploaded your video!</string>
+    <string name="popup_failed_upload_message">The upload of one of your file has failed.\n Do you want to retry?\n\n (In case of cancel you will loose your video)</string>
+    <string name="popup_action_retry">Retry</string>
+    <string name="remove_this_video">Remove this video</string>
+
+    <!-- Notifications -->
+    <string name="notifications_toolbar_title">Notifications</string>
+    <string name="notifications_applied_text">%s applied for %s</string>
+    <string name="notifications_empty_text_title">No notifications!</string>
+    <string name="notifications_empty_text_description">Currently you donâ€™t have notifications.</string>
+    <string name="notifications_off_popup_title">Turn off notifications</string>
+    <string name="notifications_on_popup_title">Turn on notifications</string>
+    <string name="notifications_off_popup_description">If you turn off notifications you will not be notify when someone applies to your jobs.\n\nAre you sure that you want to turn off notifications?</string>
+    <string name="notifications_on_popup_description">If you turn on notifications you will not be notify when someone applies to your jobs.\n\nAre you sure that you want to turn on notifications?</string>
+
+
+    <!-- Employee profile -->
+    <string name="over16">Over 16 years</string>
+    <string name="over18">Over 18 years</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Evening</string>
+    <string name="high_school">High School</string>
+    <string name="some_college">Some College</string>
+    <string name="bachelors">Bachelor\'s degree</string>
+    <string name="masters">Master\'s degree</string>
+    <string name="months23">2-3 months</string>
+    <string name="months46">4-6 months</string>
+    <string name="months69">6-9 months</string>
+    <string name="year1">1 year +</string>
+    <string name="years2">2 years +</string>
+    <string name="years3">3 years +</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="status">Status</string>
+    <string name="education">Education</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="availability">Availability</string>
+
+</resources>
