@@ -13,7 +13,6 @@ function exportStringsToClipoard() {
 function convertRawToTabular(rawStrings) {
     var nextCell = '	';
     return removeUnTranslatableStrings(rawStrings)
-        .replace('\n', '') // first new line
         .replaceAll(/^\s*[\r\n]/gm, '') // blank lines
         .replaceAll(/  +/g, '') // redundant spaces
         .replaceAll('<resources>', '')
